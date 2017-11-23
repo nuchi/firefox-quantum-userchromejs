@@ -6,6 +6,8 @@ Extensions that allow you to run arbitrary javascript in your browser context do
 
 It does not involve adding any extensions, and instead works only by adding (or changing) files in your Firefox user profile.
 
+After I made this I learned of something called `autoconfig.js` which apparently serves a similar purpose; I haven't investigated it very much.
+
 ## Installation
 
 Place the three `userChrome.*` files in a `/chrome` directory inside your Firefox profile. If you already have a `userChrome.css` file, you may instead add the contents of the file here anywhere in your existing file.
