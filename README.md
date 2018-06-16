@@ -12,7 +12,7 @@ After I made this I learned of something called `autoconfig.js` which apparently
 
 Place the three `userChrome.*` files in a `/chrome` directory [inside your Firefox profile](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data). If you already have a `userChrome.css` file, you may instead add the contents of the file here anywhere in your existing file.
 
-Replace the contents of `userChrome.js` with whatever you wish; it will execute in the browser context whenever you open a new browser window. The existing contents of that script (in this repo) are a small change to the fullscreen behavior of Firefox under macOS: it restores the pre-Lion behavior (and hides the toolbar and tabs when in fullscreen mode). To pull up the toolbar without the macOS menubar popping over your open tabs you can use the keybaord shortcut `Command + K`.
+Replace the contents of `userChrome.js` with whatever you wish; it will execute in the browser context whenever you open a new browser window. The existing contents of that script (in this repo) are a small change to the fullscreen behavior of Firefox under macOS: it restores the pre-Lion behavior (and hides the toolbar and tabs when in fullscreen mode).
 
 To uninstall, remove the three files. If you have other content in the `userChrome.css` file you can remove just the part that you added during installation.
 
