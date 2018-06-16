@@ -10,7 +10,7 @@ After I made this I learned of something called `autoconfig.js` which apparently
 
 ## Installation
 
-Place the three `userChrome.*` files in a `/chrome` directory inside your Firefox profile. If you already have a `userChrome.css` file, you may instead add the contents of the file here anywhere in your existing file.
+Place the three `userChrome.*` files in a `/chrome` directory [inside your Firefox profile](https://support.mozilla.org/en-US/kb/profiles-where-firefox-stores-user-data). If you already have a `userChrome.css` file, you may instead add the contents of the file here anywhere in your existing file.
 
 Replace the contents of `userChrome.js` with whatever you wish; it will execute in the browser context whenever you open a new browser window. The existing contents of that script (in this repo) are a small change to the fullscreen behavior of Firefox under macOS: it restores the pre-Lion behavior (and hides the toolbar and tabs when in fullscreen mode).
 
