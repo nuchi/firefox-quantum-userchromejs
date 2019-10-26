@@ -1,3 +1,9 @@
+# Note: The trick contained in this repo stops working as of Firefox 72
+
+> It's very possible that at some future time the Firefox team will remove some or all of the functionality that makes this possible, so enjoy it while you can.
+
+Now that the Firefox team has removed XBL from Firefox starting with version 72, this trick no longer works. It was a good run while it lasted!
+
 # Firefox Quantum compatible userChrome.js
 
 ## What does this do?
