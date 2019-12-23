@@ -4,6 +4,8 @@
 
 Now that the Firefox team has removed XBL from Firefox starting with version 72, this trick no longer works. It was a good run while it lasted!
 
+See the Bugzilla tracking page [Disable MOZ_XBL in Firefox](https://bugzilla.mozilla.org/show_bug.cgi?id=1583314).
+
 # Firefox Quantum compatible userChrome.js
 
 ## What does this do?
